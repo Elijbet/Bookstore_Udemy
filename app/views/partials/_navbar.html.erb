@@ -1,0 +1,33 @@
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">Elijbet
+  </a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item nav-link <%= params[:controller] == 'about' ? 'active' : '' %>">
+        <a><%= link_to 'Home', root_path %></a>
+      </li>
+      <li class="nav-item nav-link <%= params[:controller] == 'books' ? 'active' : '' %>">
+       <a><%= link_to 'Books', books_path %></a>
+      </li>
+    </ul>
+    <div class="dropdown btn">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Add New
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <li class="dropdown-item"><%= link_to 'Authors', authors_path %></li>
+    <li class="dropdown-item"><%= link_to 'Books', books_path %></li>
+    <li class="dropdown-item"><%= link_to 'Publishers', publishers_path %></li>
+    <li class="dropdown-item"><%= link_to 'Categories', categories_path %></li>
+  </div>
+</div>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
