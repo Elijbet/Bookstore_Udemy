@@ -28,10 +28,43 @@ body{
 	color:#666;
 	line-height: 1.5em;
 }
+h3{
+	font-family: 'Arial', sans-serif;
+	font-size: 25px;
+	color:#666;
+	line-height: 1.2em;
+}
 header{
 	background:#333;
 	color:#fff;
 	height:80px;
 	margin-bottom:20px;
-	vertical-align: middle;
+}
+footer {
+	background:#333;
+	height:60px;
+	margin-top:20px;
+	text-align: center;
+	padding-top:20px;
+}
+
+#books-index{
+	text-align:center;
+}
+#books-index h3{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#books-index img{
+	width:100%;
+	padding:3px;
+	border:1px #ccc solid;
+		margin-bottom:20px;
+}
+#books-index h3{
+	height:50px;
+}
+#books-index .btn{
+	display:block;
+	margin: 0 auto;
 }
