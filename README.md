@@ -1,7 +1,7 @@
 
-## [Udemy Bookstore Project](https://www.udemy.com/learn-ruby-on-rails-building-projects/learn/v4/overview)
+## [Udemy Bookstore Project](https://www.udemy.com/learn-ruby-on-rails-building-projects/)
 
-__Complete project needs to be hosted__
+__Project in workings__
 
 
 Building A Simple Book Store
