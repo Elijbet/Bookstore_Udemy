@@ -1,7 +1,22 @@
+# Udemy Bookstore Project
 
-## [Udemy Bookstore Project](https://www.udemy.com/learn-ruby-on-rails-building-projects/)
+> To build up a bookstore and expand on it.
 
-__Project in workings__
+## Acknowledgments
 
+Following the [Udemy Bookstore Project](https://www.udemy.com/learn-ruby-on-rails-building-projects/).
 
-Building A Simple Book Store
+## Installation
+
+- clone the repo and and navigate to the project directory
+- run `rails s`	
+- Open localhost:3000 to view it in the browser
+
+## Authors
+
+Eliza Khachatryan
+
+## Feature Roadmap
+
+The app needs some work. Is incomplete currently. 
+
